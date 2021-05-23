@@ -1,0 +1,15 @@
+<p> This is details page</p>
+<p> In this details component service is being used to display list of courses.
+    dependencies are services or objects that a class needs to perform its function. Dependency injection, or DI, is a design pattern in which a class requests dependencies from external sources rather than creating them.
+
+Angular's DI framework provides dependencies to a class upon instantiation. You can use Angular DI to increase flexibility and modularity in your applications.
+The @Injectable() decorator specifies that Angular can use this class in the DI system. The metadata, providedIn: 'root', means that the DisplayService is visible throughout the application.
+</p>
+<h3>Injecting services </h3>
+<p>To inject a dependency in a component's constructor(), supply a constructor argument with the dependency type. The following example specifies DisplayService in the DetailComponent constructor.
+</p>
+Welcome to {{ title }}!!
+  <div>
+    <ul *ngFor="let c of course">
+      <li>{{c}}</li>
+    </ul>

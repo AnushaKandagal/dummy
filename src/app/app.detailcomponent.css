@@ -1,0 +1,11 @@
+li{
+    list-style-position: inside;
+    list-style-type: style square;
+    line-height-step:initial;
+}
+p{
+   text-align: justify;
+   text-shadow: burlywood;
+
+
+}
